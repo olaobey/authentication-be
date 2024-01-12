@@ -1,5 +1,7 @@
 'use strict'
 
+require('dotenv').config({ path: __dirname + '/.env' });
+
 /** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
 

@@ -4,6 +4,9 @@ const Hash = use("Hash");
 const jwt = require("jsonwebtoken");
 const Config = use("Config");
 
+require('dotenv').config();
+
+
 class AuthController {
   async register({ request, response }) {
     try {
